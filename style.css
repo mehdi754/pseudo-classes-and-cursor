@@ -1,0 +1,69 @@
+/* ziyaret olunmamis link rengi  */
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+/* ziyaret olunmus link rengi */
+
+a:visited{
+    color: purple;
+}
+
+/* sian likin  ustunde olanda  */
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* link kliklenen zaman */
+
+a:active{
+    color: green;
+}
+
+a, button{
+    display: block;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:#007bbf ;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button:hover{
+    background-color: #0056b0;
+    
+}
+
+.custom-button:active{
+    background-color: #004049
+}
+
+.custom-button:focus{
+    outline:3px solid #ffcc00;
+}
+
+/* css text */
+.custom-text{
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    /* cursor: text; */
+}
+.custom-text:focus{
+    border-color: red;
+    outline: none;
+}
+
